@@ -190,14 +190,17 @@
 1. Ubuntu 18:
     * Set the desired frequency and voltage in `/writeable/boot/firmware/config.txt`
 
-## Install Adafruit Python libraries
+## Install Python GPIO libraries
 * [Reference](https://gpiozero.readthedocs.io/en/stable/installing.html)
+* [I2C on Ubuntu](https://medium.com/vacatronics/getting-started-with-raspberry-pi-i2c-and-ubuntu-server-eaa57ee0baf2)
 * [Raspberry Pi GPIO Usage](https://www.raspberrypi.org/documentation/usage/gpio/)
 1. Update Raspberry Pi and Python
    * `sudo apt update`
    * `sudo pip3 install --upgrade setuptools`
 1. Install GPIOZero Python Libraries
    * `sudo apt install python3-gpiozero`
+1. Install I2C Libraries
+   * `sudo apt install i2c-tools
 
 ## Miscellaneous Enhancements
 1. Create bash function to generate udev rules for symlinks
